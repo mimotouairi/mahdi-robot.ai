@@ -1,5 +1,5 @@
 // ⚠️ مفتاح OpenAI
-const OPENAI_KEY = "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";
+const OPENAI_KEY = "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";
 
 // 🔑 مفتاح ElevenLabs
 const ELEVENLABS_API_KEY = "sk_f88df2916f664b1f1ec47e686315bc9675470c419477e0e1";
