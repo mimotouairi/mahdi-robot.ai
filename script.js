@@ -1,5 +1,5 @@
 // ⚠️ مفتاح OpenAI
-const OPENAI_KEY = "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";
+const OPENAI_KEY = "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";
 
 // 🔑 مفتاح ElevenLabs
 const ELEVENLABS_API_KEY = "sk_f88df2916f664b1f1ec47e686315bc9675470c419477e0e1";
@@ -245,7 +245,7 @@ async function askAPI(question) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "openai/gpt-4o-mini",
+        model: "gpt-4o-mini",
         messages: [
           { 
             role: "system", 
